@@ -8,10 +8,11 @@ public class MultiplicationTable {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number to print its multiplication Table ");
         int num = sc.nextInt();
-        System.out.println("The multiplication Table of " + num + " is" );
+        System.out.println("The multiplication Table of " + num + " is");
 
-        for(int i = 1;i <= 10;i++) {
-    System.out.println(num +"*"+ i +"="+ (num * i));
-}
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(num + "*" + i + "=" + (num * i));
+        }
     }
 }
+
