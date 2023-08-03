@@ -1,10 +1,10 @@
 package com.flipkart.learn.day4;
-import java.util.Scanner;
-public class CountCharacters {
+//import java.util.Scanner;
+public class  CountCharacters {
 
     public static void main(String[] args) {
         System.out.println("Enter a String");
-        Scanner sc = new Scanner(System.in);
+       // Scanner sc = new Scanner(System.in);
         String str = "java learning";
         int v=0,c=0;
         for (int i = 0; i < str.length(); i++) {
